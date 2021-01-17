@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-light-pastel-purple-solid-color-background.jpg");
+    background-size: auto;
+    font-size: 200%;
+    font-style: bold;
+    
+  }
+ 
+ 
+    
+
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 3.5px solid black
+}
+  
+input[type=button]{
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 80;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 20px;
+  border: 2px solid rgb(125, 43, 226);
+  background-color: rgb(125, 43, 226);
+  color:white;
+ border-radius: 4px 4px 4px 4px;
+}
+input[type=button]:hover{
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 80;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  border: 2px solid rgb(192, 131, 250);
+  background-color: rgb(192, 131, 250);
+  color:black;
+ border-radius: 4px 4px 4px 4px;
+}
+  
